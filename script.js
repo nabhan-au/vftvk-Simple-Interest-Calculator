@@ -15,7 +15,7 @@ function compute()
     else{
         var current_year = new Date().getFullYear();
         var result = document.getElementById("result");
-        result.innerHTML = "if you deposit " + p + "<br>at an interest rate of " + rate + "%<br>You will recieve an amount of " + (parseFloat(p)*parseFloat(rate)/100*parseFloat(year)).toString() + "<br>In the year " + (parseInt(current_year) + parseInt(year)).toString(); 
+        result.innerHTML = "if you deposit <mark>" + p + "</mark><br>at an interest rate of <mark>" + rate + "%</mark><br>You will recieve an amount of <mark>" + (parseFloat(p)*parseFloat(rate)/100*parseFloat(year)).toString() + "</mark><br>In the year <mark>" + (parseInt(current_year) + parseInt(year)).toString() + "</mark>"; 
     }
     
 }
