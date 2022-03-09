@@ -6,12 +6,6 @@ function compute()
     if (p == ""){
         alert("Amount is empty");
     }
-    else if (rate == ""){
-        alert("Rate is empty");
-    }
-    else if (year == ""){
-        alert("Year is empty")
-    }
     else{
         var current_year = new Date().getFullYear();
         var result = document.getElementById("result");
