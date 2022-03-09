@@ -4,9 +4,11 @@ function compute()
     var rate = document.getElementById("rate").value;
     var year = document.getElementById("years").value;
     if (p == ""){
-        alert("Amount is empty");
+        alert("Please enter positive number");
+        document.getElementById("principal").focus()
     } else if (parseFloat(p) <= 0) {
         alert("Amount must be positive number")
+        document.getElementById("principal").focus()
     }
     else{
         var current_year = new Date().getFullYear();
