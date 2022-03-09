@@ -5,6 +5,8 @@ function compute()
     var year = document.getElementById("years").value;
     if (p == ""){
         alert("Amount is empty");
+    } else if (parseFloat(p) <= 0) {
+        alert("Amount must be positive number")
     }
     else{
         var current_year = new Date().getFullYear();

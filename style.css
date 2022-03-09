@@ -1,17 +1,11 @@
-body {
-    background-color:black;
-    display: flex;
-    justify-content: center;
-    margin-top: 15%;
-}
-h1{
-    color:rgb(101, 110, 101);
-}
+body {background-color:black;font-family:arial;color:black}
+h1{color:grey;font-family:verdana}
 
 #main {
     background-color: white;
     text-align: center;
     position: absolute;
+    width: 300px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
