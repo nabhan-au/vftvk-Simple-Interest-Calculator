@@ -8,7 +8,7 @@
             <h1>Simple Interest Calculator</h1>
             <div id="input">
                 <p>Amount <input type="number"  id="principal"></p>
-                <p>Rate <input type="range" step="0.5" min="0" max="20"  id="rate" onchange="update_value()"><span id="show-percent">10%</span></p>
+                <p>Interest Rate <input type="range" step="0.5" min="0" max="20"  id="rate" onchange="update_value()"><span id="show-percent">10%</span></p>
                 <p>No. of Years 
                     <select type="text" id="years">
                         <option>1</option>
@@ -18,7 +18,7 @@
                         <option>5</option>
                     </select>
                 </p>
-                <button onclick="compute()">Compute</button>
+                <button onclick="compute()">Compute Interest</button>
                 <p id="result"></p>
             </div>
             <p id="foot">&copy Everyone Can Get Rich</p>
